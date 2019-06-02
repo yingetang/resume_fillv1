@@ -12,34 +12,34 @@ ng.callbacks.ModelRestorer(trainer.context['saver'], dump_prefix='model_logs/'+c
 
 ## Tips during training
 1. The file tree can be:
-```
-project
-└───training_data
-│   │───training
-│   │    └───celeba
-│   │    		   │───image0.jpg
-│   │   	    	│───image1.jpg
-│   │   		    │───...
-│   └───validation
-│   │	   └───val_celeba
-│   │    		   │───image162771.jpg
-│   │   		    │───image162772.jpg
-│   │   		    │───...
-└───data_flist
-│   │───training_shuffled.flist
-│   └───validation_shuffled.flist
-└───model_logs
-└───neuralgym_logs
-└───train.py
-└───test.py
-└───impaint.yml
-└───...  
+   ```
+   project
+   └───training_data
+   │   │───training
+   │   │    └───celeba
+   │   │    		│───image0.jpg
+   │   │   		│───image1.jpg
+   │   │   		│───...
+   │   └───validation
+   │   │	└───val_celeba
+   │   │    		│───image162771.jpg
+   │   │   		│───image162772.jpg
+   │   │   		│───...
+   └───data_flist
+   │   │───training_shuffled.flist
+   │   └───validation_shuffled.flist
+   └───model_logs
+   └───neuralgym_logs
+   └───train.py
+   └───test.py
+   └───impaint.yml
+   └───...  
 
-```
+   ```
 2. You can change the IMAGE_SHAPES in inpaint.yml to speed up.
-``` python 
-IMG_SHAPES: [256, 256, 3]
-```
-The size of mask will be changed automatically. Please read inpaint.ops.py.
+   ``` python 
+   IMG_SHAPES: [256, 256, 3]
+   ```
+   The size of mask will be changed automatically. Please read inpaint.ops.py.
  
  
