@@ -17,14 +17,14 @@ ng.callbacks.ModelRestorer(trainer.context['saver'], dump_prefix='model_logs/'+c
    └───training_data
    │   │───training
    │   │    └───celeba
-   │   │    		│───image0.jpg
-   │   │   		│───image1.jpg
-   │   │   		│───...
+   │   │    	│───image0.jpg
+   │   │   	│───image1.jpg
+   │   │   	│───...
    │   └───validation
    │   │	└───val_celeba
-   │   │    		│───image162771.jpg
-   │   │   		│───image162772.jpg
-   │   │   		│───...
+   │   │    	│───image162771.jpg
+   │   │   	│───image162772.jpg
+   │   │   	│───...
    └───data_flist
    │   │───training_shuffled.flist
    │   └───validation_shuffled.flist
