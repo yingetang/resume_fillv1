@@ -1,5 +1,5 @@
 # Resume_Fillv1
-Based on fillv1 from Jiahui Yu[enter link description here](https://github.com/JiahuiYu/generative_inpainting), the change focus on the inpaint.yml.
+Based on [fillv1](https://github.com/JiahuiYu/generative_inpainting) from Jiahui Yu, the change focus on the inpaint.yml.
 
 ## Training
 When you are training from zero, the MODEL_STORE flag should be nothing.
